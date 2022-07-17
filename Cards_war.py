@@ -1,4 +1,3 @@
-from re import S
 from PyQt5.QtWidgets import QMainWindow, QApplication,QLabel,QPushButton,QMessageBox
 from PyQt5.QtGui import QPixmap,QFont,QIcon
 from PyQt5.QtCore import Qt
@@ -13,7 +12,7 @@ class Cards_war(QMainWindow):
         self.setWindowFlag(Qt.WindowCloseButtonHint, True)
         self.setWindowFlag(Qt.WindowMinimizeButtonHint, False)
         self.setWindowFlag(Qt.WindowMaximizeButtonHint, False)
-        self.setWindowIcon(QIcon('icons8-ace-of-hearts-100.png'))
+        self.setWindowIcon(QIcon('icon-100.png'))
         self.setFixedSize(self.size())
         self.setWindowTitle("cards war")
         
